@@ -2,9 +2,9 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "sandbox-1-aft@example.com"
+    AccountEmail              = "sandbox-1-aft-unique-aaa@example.com"
     AccountName               = "sandbox-1-aft"
-    ManagedOrganizationalUnit = "AFT Demo"
+    ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "rafaltrzymalski@gmail.com"
     SSOUserFirstName          = "Sandbox1"
     SSOUserLastName           = "AFT"
@@ -30,7 +30,7 @@ module "sandbox-2" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "sandbox-2-aft@example.com"
+    AccountEmail              = "sandbox-2-aft-unique-yyy@example.com"
     AccountName               = "sandbox-2-aft"
     ManagedOrganizationalUnit = "AFT Demo"
     SSOUserEmail              = "rafaltrzymalski@gmail.com"
