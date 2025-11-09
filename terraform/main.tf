@@ -4,9 +4,9 @@ module "sandbox" {
   control_tower_parameters = {
     AccountEmail              = "sandbox-1-aft@example.com"
     AccountName               = "sandbox-1-aft"
-    ManagedOrganizationalUnit = "Learn AFT"
+    ManagedOrganizationalUnit = "AFT Demo"
     SSOUserEmail              = "rafaltrzymalski@gmail.com"
-    SSOUserFirstName          = "Sandbox"
+    SSOUserFirstName          = "Sandbox1"
     SSOUserLastName           = "AFT"
   }
 
@@ -32,9 +32,9 @@ module "sandbox-2" {
   control_tower_parameters = {
     AccountEmail              = "sandbox-2-aft@example.com"
     AccountName               = "sandbox-2-aft"
-    ManagedOrganizationalUnit = "Learn AFT"
+    ManagedOrganizationalUnit = "AFT Demo"
     SSOUserEmail              = "rafaltrzymalski@gmail.com"
-    SSOUserFirstName          = "Sandbox"
+    SSOUserFirstName          = "Sandbox2"
     SSOUserLastName           = "AFT"
   }
 
